@@ -63,3 +63,19 @@ Similarly for , we get .
 #include <iostream>
 #include <algorithm>
 #include <unordered_map>
+
+
+using namespace std;
+
+long int func(int x)
+{
+    long int sum1=(x-1)/3;
+    sum1=(3*sum1*(sum1+1))/2;
+    long int sum2=(x-1)/5;
+    sum2 = (5 * sum2 * (sum2 + 1)) / 2;
+    long int sum3=(x-1)/15;
+    sum3 = (15 * sum3 * (sum3 + 1)) / 2;
+
+    return sum1+sum2-sum3;
+}
+
