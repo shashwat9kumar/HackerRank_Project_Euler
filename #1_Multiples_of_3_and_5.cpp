@@ -79,3 +79,17 @@ long int func(int x)
     return sum1+sum2-sum3;
 }
 
+
+int main(){
+    long int t;
+    cin >> t;
+    for(long int a0 = 0; a0 < t; a0++){
+        long int n;
+        cin >> n;
+        long int x=func(n);
+        cout<<x<<endl;
+    }
+    return 0;
+}
+
+
