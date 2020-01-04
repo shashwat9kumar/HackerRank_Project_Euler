@@ -27,3 +27,6 @@ public class Solution {
                     if(c%2==0)
                     sum=sum+c;
                     c=a+b;
+
+                }
+                System.out.println(sum);
