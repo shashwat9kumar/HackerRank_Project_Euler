@@ -59,3 +59,26 @@ For ,
 using namespace std;
 
 
+
+
+int main(){
+    int t;
+    cin >> t;
+    for(int a0 = 0; a0 < t; a0++){
+        int n;
+        cin >> n;
+        long int s1=(n*(n+1))/2;
+        s1=s1*s1;
+        long int s2;
+        s2=n*(n+1);
+        int a=2*n+1;
+        s2=s2*a;
+        s2=s2/6;
+        cout<<s1-s2<<endl;
+    }
+    return 0;
+}
+
+
+
+
