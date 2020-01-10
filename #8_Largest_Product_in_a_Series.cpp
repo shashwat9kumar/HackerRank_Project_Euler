@@ -9,6 +9,11 @@ Input Format
 First line contains  that denotes the number of test cases.
 First line of each test case will contain two integers  & .
 Second line of each test case will contain a  digit integer.
+Constraints
+
+Output Format
+
+Print the required answer for each test case.
 
 
 */
