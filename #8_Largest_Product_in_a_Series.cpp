@@ -2,7 +2,13 @@
 
 
 
+Find the greatest product of  consecutive digits in the  digit number.
 
+Input Format
+
+First line contains  that denotes the number of test cases.
+First line of each test case will contain two integers  & .
+Second line of each test case will contain a  digit integer.
 
 
 */
