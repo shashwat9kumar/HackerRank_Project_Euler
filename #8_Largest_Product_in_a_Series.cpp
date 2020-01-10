@@ -35,6 +35,7 @@ For  and selecting  consequetive digits, we have , , , ,  and . Where  gives max
 For ,  lies in all selection of  consequetive digits hence maximum product remains 
 
 
+
 */
 #include <map>
 #include <set>
