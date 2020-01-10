@@ -42,4 +42,17 @@ int main(){
         int maxprod=0;
         for(int i=0;i<=n-k;i++)
         {
+                        int prod=1;
+            string str=num.substr(i,k);
+            int number=stoi(str);
+            while(number>0)
+            {
+                int d=number%10;
+                prod*=d;
+                number/=10;
+            }
+            if(prod>maxprod)
+            {
+                maxprod=prod;
+            }
 
