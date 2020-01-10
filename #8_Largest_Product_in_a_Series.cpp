@@ -14,6 +14,25 @@ Constraints
 Output Format
 
 Print the required answer for each test case.
+Output Format
+
+Print the required answer for each test case.
+
+Sample Input 0
+
+2
+10 5
+3675356291
+10 5
+2709360626
+Sample Output 0
+
+3150
+0
+Explanation 0
+
+For  and selecting  consequetive digits, we have , , , ,  and . Where  gives maximum product as 
+For ,  lies in all selection of  consequetive digits hence maximum product remains 
 
 
 */
