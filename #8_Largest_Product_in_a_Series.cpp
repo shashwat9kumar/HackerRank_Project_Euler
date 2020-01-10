@@ -55,4 +55,10 @@ int main(){
             {
                 maxprod=prod;
             }
+                    }
+        cout<<maxprod<<endl;
+    }
+    return 0;
+}
+
 
